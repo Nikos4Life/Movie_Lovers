@@ -8,3 +8,29 @@
 	background-size: cover;
 	padding: 150px;
 }
+
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: #fff;
+}
+.movies-row{
+	text-align: center;
+}
+.movie-poster{
+	background: no-repeat center center; 
+	background-size: 100% auto; 
+	min-height: 500px; 
+	padding: 25px; 
+	background-clip: content-box;
+}
+@media(max-width: 768px){
+	.movie-poster{
+		background-size: contain;
+		height: 350px;
+	}
+}
+.movie-question{
+	text-align: center;
+}

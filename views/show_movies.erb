@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<h1 class="movie-question">Which movie was released in <%= year = @movie_list[1 + rand(@movie_list.count)].year %>?</h1>
+		<hr class="small">
+	</div>
+</div>
+	<div class="row movies-row">	
+		<% @movie_list.each do |movie| %>
+		<div class="col-md-4 col-xs-6 movie-poster" style="background-image: url('<%= movie.poster %>');" 
+			onClick="alert('<%= year == movie.year ? "yey" : "no yey" %>')">
+  		<a href=""></a>
+		</div>
+		<% end %>
+</div>
