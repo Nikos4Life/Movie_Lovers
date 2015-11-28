@@ -1,0 +1,10 @@
+.navbar-default {
+    background-color: rgba(255,255,255,.15);
+    border-color: #e7e7e7; 
+}
+.search-header{
+	width: 100%;
+	background: url('http://previews.123rf.com/images/kentoh/kentoh1006/kentoh100600577/7211661-TV-Channel-Movie-Guide-on-Abstract-Background-Stock-Photo-movies-movie.jpg')  no-repeat center center;
+	background-size: cover;
+	padding: 150px;
+}
